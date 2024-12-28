@@ -224,7 +224,7 @@ class CAR(Platforms):
   )
   HONDA_FREED_HYBRID_JP = HondaNidecPlatformConfig(
     [HondaCarDocs("Honda Freed Hybrid JP 2020", min_steer_speed=0. * CV.MPH_TO_MS)],
-    CarSpecs(mass=4047.68 * CV.LB_TO_KG, wheelbase=2.7, steerRatio=13.0, centerToFrontRatio=1.35, tireStiffnessFactor=1),  # mostly copied from FIT
+    CarSpecs(mass=3306.93 * CV.LB_TO_KG, wheelbase=2.74, steerRatio=13.0, centerToFrontRatio=1.35, tireStiffnessFactor=1),  # mostly copied from FIT
     radar_dbc_dict('honda_fit_ex_2018_can_generated'),
     flags=HondaFlags.NIDEC_ALT_SCM_MESSAGES,
   )
